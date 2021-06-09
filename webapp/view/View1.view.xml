@@ -8,7 +8,9 @@
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
-					<content> 
+					<content>
+						<Button type="Back" press="onPress" />
+						<Input id="productInput" placeholder="Enter your name"> </Input>
 						<Button text="Press" press="onClick"></Button>
 					</content>
 				</Page>
